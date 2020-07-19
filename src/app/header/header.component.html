@@ -10,10 +10,10 @@
         <li class="dropdown" appDropdown>
           <a style="cursor: pointer;" role="button" class="dropdown-toggle">manage<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li>
+            <li (click)="onSaveRecipe()">
               <a style="cursor: pointer;">Save</a>
             </li>
-            <li>
+            <li (click)="onFetchRecipeList()">
               <a style="cursor: pointer;">Fetch Lists</a>
             </li>
           </ul>

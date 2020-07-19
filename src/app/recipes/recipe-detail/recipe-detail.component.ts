@@ -30,6 +30,8 @@ export class RecipeDetailComponent implements OnInit {
     this.router.navigate(['/recipes']);
   }
 
+  
+
 
 
 }
